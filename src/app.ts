@@ -37,6 +37,6 @@ app.get("/", (req, res) => {
   res.json(success("Node Server on Typescript", [], 200));
 });
 
-app.listen(process.env.PORT || 3333, () =>
+app.listen(5000 || 3333, () =>
   infoLog(`Server Started on http://localhost:${process.env.PORT}`)
 );
