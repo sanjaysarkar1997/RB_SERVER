@@ -12,7 +12,6 @@ import connectMongoDB from "./db/MongoDB";
 import { infoLog } from "./services/logServices";
 // import cronRunner from "./services/cronService";
 
-require("dotenv").config();
 
 const app = express();
 
